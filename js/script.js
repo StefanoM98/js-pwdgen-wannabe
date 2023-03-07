@@ -12,6 +12,9 @@ console.log(surnameuser);
 const favoritecolor = prompt ("Qual è il tuo colore preferito?")
 console.log(favoritecolor);
 
-// STAMPIAMO LA PASSWORD SUPER SICURA
-const password = `La tua password super sicura è ${nameuser + surnameuser + favoritecolor + 21}`
+// CREIAMO LA PASSWORD SUPER SICURA
+const password = `La tua password super sicura è: ${nameuser + surnameuser + favoritecolor + 21}`
 console.log(password)
+
+// STAMPIAMO LA PASSWORD SUPER SICURA
+document.getElementById('sure-password').innerHTML = password
